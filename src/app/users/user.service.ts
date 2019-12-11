@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
 export class UserService {
 
 constructor(private http: HttpClient) { }
-  url = 'https://api.myjson.com/bins/1csdcs';
+  url = 'https://api.myjson.com/bins/a6724';
   getUsers() {
     return this
             .http
