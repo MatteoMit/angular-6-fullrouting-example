@@ -1,5 +1,6 @@
-export interface User {
+
+ export interface User {
     id: Number;
     name: String;
-    movies: Number;
+    movies: String;
   }
